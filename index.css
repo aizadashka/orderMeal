@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+    height: 100%;
+} 
+
+/* HEADER */
+header{
+    background-image: url(/backgound.jpg);
+    width: 600px;
+    height: 167px;
+    margin: 0 auto 67px auto;
+    padding: 1px;
+}
+
+header h2{
+    font-size: 32px;
+    padding-top: 56px;
+    margin: 0;
+}
+
+header p{
+    font-size: 22px;
+}
+
+header h2, header p{
+    padding-left: 46px;
+    color: white;
+}
+
+/* MENU */
+section{
+    width: 508px;
+    margin: auto;
+}
+
+.food-container{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 508px;
+    height: 140px;
+    margin: 35px auto;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.food-icon{
+    font-size: 78px;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.food-name, .price{
+    font-size: 28px;
+}
+
+.ingredients{
+    font-size: 16px;
+    margin: 8px 0;
+    color: #8B8B8B;
+}
+
+p{
+    margin: 0;
+}
+
+.food-container .food-name, .food-container .price, .food-container .ingredients{
+    padding-left: 31px;
+}
+
+i{
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+    color: #3C3C3C;
+    border: 1px solid #DEDEDE;
+    width: 50px;
+    height: 42px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 9px;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+/* CHECKOUT */
+.checkout{
+    text-align: center;
+}
+
+.items-list{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.chosen-price{
+    margin-top: auto;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+.total{
+    font-size: 28px;
+}
+
+.total-container{
+    display: flex;
+    padding-top: 14px;
+    border-top: 2px solid #393333;
+    margin-top: 31px;
+}
+
+button{
+    display: block;
+    width: 100%;
+    background: #16DB99;
+    border: none;
+    border-radius: 3px;
+    padding: 18px;
+    color: white;
+    font-size: 16px;
+    margin: 53px auto;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+}
+
+button, .modal p{
+    font-family: 'Verdana', sans-serif;
+    font-weight: 700;
+}
+
+/* MODAL */
+.modal{
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 524px;
+    height: 502px;
+    box-shadow: 5.186544418334961px 5.186544418334961px 255.43731689453125px 0px #00000080;
+    border: none;
+    border-radius: 4px;
+    background: white;
+}
+
+input{
+    box-sizing: border-box;
+    width: 475px;
+    margin: 11.5px 23px;
+    padding: 15px 26px;
+    border: 1.3px solid #757575;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.modal button{
+    width: 90%;
+    margin: 23px;
+    font-size: 20px;
+}
+
+.modal p{
+    font-size: 24px;
+    text-align: center;
+    margin: 46px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+/* THANKS CONTAINER */
+.thanks-container{
+    display: none;
+    width: 504px;
+    height: 120px;
+    background: #ECFDF5;
+    text-align: center;
+    font-family: Smythe, serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 50px;
+}
+
+.thanks-container p{
+    margin: auto;
+}
+
+/* TO HIDE BOXES */
+.hidden{
+    display: none;
+}
